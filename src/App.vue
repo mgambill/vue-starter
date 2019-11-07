@@ -1,12 +1,25 @@
-<template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+<template lang="pug">
+  component(:is="layoutTemplate")
+    router-view
+  
 </template>
+<script>
+import BlankLayout from "./layouts/BlankLayout"
+import MainLayout from "./layouts/MainLayout"
+export default {
+  name: "App",
+  components: {
+    BlankLayout,
+    MainLayout
+  },
+  computed: {
+    layoutTemplate() {
+      const layout = this.$route.meta && this.$route.meta.layout
+      return layout || "MainLayout"
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 #app {

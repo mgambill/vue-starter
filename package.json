@@ -28,6 +28,7 @@
     "prettier": "^1.18.2",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
+    "vue-cli-plugin-pug": "^1.0.7",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -61,5 +62,9 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false
   }
 }
