@@ -11,6 +11,7 @@ alternatively you can change the remote origin
 ```
 git remote set-url origin git://new.url.here
 ```
+Finally replace the README.md or remove this write up.
 
 ## What does the project come with
 - Vue with 
