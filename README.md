@@ -1,6 +1,6 @@
 ## Getting started
 
-Since this repo is meant to be a starting point, its recommended you use the following command to clone the project into your own project.
+Since this repo is meant to be a starting point, its recommended you use the following command to clone the project into your own project. Then remove this repo as the origin (or override with your own).
 
 ```
 git clone https://github.com/mgambill/vue-starter.git your-project-name
