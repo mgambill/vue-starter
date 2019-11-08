@@ -1,5 +1,3 @@
-# vue-starter
-
 ## Getting started
 
 Since this repo is meant to be a starting point, its recommended you use the following command to clone the project into your own project.
